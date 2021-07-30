@@ -1,0 +1,7 @@
+#include<cmath>//this is used for math function
+int a=max/min(x,y)
+
+#include<algorithm>
+sort(arr.begin(),arr.end());
+####String###
+getline(cin,mystring);//get string in one line
