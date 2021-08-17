@@ -10,6 +10,5 @@ int main(){
     int a,b;
     cin>>a>>b;
     cout<<"LCM="<<(a*b)/gcd(a,b);
-
     return 0;
 }
