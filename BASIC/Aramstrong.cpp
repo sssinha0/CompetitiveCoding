@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// if the sqaure of the digit on the number of digit is called the armstrong number
 int main(){
     int n;
     cin>>n;

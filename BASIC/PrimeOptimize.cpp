@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// this also know as Seive of erasthenes
 int main(){
     int n;
     cin>>n;
