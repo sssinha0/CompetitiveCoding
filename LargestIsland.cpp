@@ -51,6 +51,7 @@ int makelarge(int grid[][4],int n){
     return result;
 }
 int main(){
+    int n=2;
     int grid[4][4]={
                     {0,1,0,1},
                     {1,1,0,1},

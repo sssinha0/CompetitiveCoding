@@ -1,3 +1,26 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+fun(int input1,input2[],intput3){
+    int b=1;
+    int k=0;
+    while(b==1){
+        int s=0;
+        for(int i=0;i<input1;i++){
+            s=s+max((input2[i]-k),0);
+        }
+        if(s<=input3){
+            b=0;
+            break;
+        }
+        k++;
+    }
+    return k;
+}
+
+
+
 class Solution {
 public:
     int numDecodings(string s) {
